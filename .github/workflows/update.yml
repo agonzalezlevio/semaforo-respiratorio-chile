@@ -1,0 +1,44 @@
+name: Weekly Semáforo Update
+
+on:
+  schedule:
+    - cron: "0 12 * * 1" # Lunes 12:00 UTC
+  workflow_dispatch:
+
+concurrency:
+  group: semaforo-weekly-update
+  cancel-in-progress: false
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - run: pip install -r requirements.txt
+      - run: python -m pytest tests/ -v
+      - run: python -m pipeline.run
+
+      - name: Commit updated data (if changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/output/
+
+          if git diff --staged --quiet; then
+            echo "No changes in data/output/ - nothing to commit."
+            exit 0
+          fi
+
+          SE=$(python -c "import json; d=json.load(open('data/output/alert.json')); print(f\"SE {d['current']['week']}/{d['current']['year']}\")")
+          git commit -m "data: update $SE"
+          git pull --rebase
+          git push

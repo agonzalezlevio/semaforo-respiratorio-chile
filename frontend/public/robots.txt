@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://semaforo-respiratorio-chile.pages.dev/sitemap.xml

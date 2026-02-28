@@ -1,0 +1,63 @@
+{
+  "status": "ok",
+  "current_year": 2026,
+  "current_week": 8,
+  "horizons": [
+    {
+      "horizon": 1,
+      "year": 2026,
+      "week": 9,
+      "date_range": "23 feb-1 mar",
+      "proj": 28052,
+      "lo95": 17603,
+      "hi95": 47216,
+      "lo50": 26786,
+      "hi50": 35791,
+      "color": "green",
+      "p_orange": 0.025,
+      "p_red": 0.025
+    },
+    {
+      "horizon": 2,
+      "year": 2026,
+      "week": 10,
+      "date_range": "2-8 mar",
+      "proj": 39680,
+      "lo95": 23734,
+      "hi95": 62128,
+      "lo50": 37625,
+      "hi50": 47857,
+      "color": "green",
+      "p_orange": 0.025,
+      "p_red": 0.025
+    },
+    {
+      "horizon": 3,
+      "year": 2026,
+      "week": 11,
+      "date_range": "9-15 mar",
+      "proj": 68446,
+      "lo95": 41397,
+      "hi95": 107039,
+      "lo50": 63480,
+      "hi50": 79268,
+      "color": "green",
+      "p_orange": 0.025,
+      "p_red": 0.025
+    },
+    {
+      "horizon": 4,
+      "year": 2026,
+      "week": 12,
+      "date_range": "16-22 mar",
+      "proj": 77434,
+      "lo95": 47339,
+      "hi95": 122295,
+      "lo50": 71032,
+      "hi50": 95018,
+      "color": "green",
+      "p_orange": 0.025,
+      "p_red": 0.025
+    }
+  ]
+}

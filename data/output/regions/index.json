@@ -1,0 +1,148 @@
+{
+  "regions": [
+    {
+      "code": 1,
+      "name": "Tarapacá",
+      "color": "green",
+      "total": 221,
+      "change_pct": -77.4,
+      "week": 8,
+      "year": 2026
+    },
+    {
+      "code": 2,
+      "name": "Antofagasta",
+      "color": "green",
+      "total": 140,
+      "change_pct": -89.9,
+      "week": 8,
+      "year": 2026
+    },
+    {
+      "code": 3,
+      "name": "Atacama",
+      "color": "green",
+      "total": 124,
+      "change_pct": -87.2,
+      "week": 8,
+      "year": 2026
+    },
+    {
+      "code": 4,
+      "name": "Coquimbo",
+      "color": "green",
+      "total": 248,
+      "change_pct": -85.1,
+      "week": 8,
+      "year": 2026
+    },
+    {
+      "code": 5,
+      "name": "Valparaíso",
+      "color": "green",
+      "total": 623,
+      "change_pct": -85.9,
+      "week": 8,
+      "year": 2026
+    },
+    {
+      "code": 6,
+      "name": "O'Higgins",
+      "color": "green",
+      "total": 341,
+      "change_pct": -81.5,
+      "week": 8,
+      "year": 2026
+    },
+    {
+      "code": 7,
+      "name": "Maule",
+      "color": "green",
+      "total": 658,
+      "change_pct": -80.5,
+      "week": 8,
+      "year": 2026
+    },
+    {
+      "code": 8,
+      "name": "Biobío",
+      "color": "green",
+      "total": 842,
+      "change_pct": -82.6,
+      "week": 8,
+      "year": 2026
+    },
+    {
+      "code": 9,
+      "name": "Araucanía",
+      "color": "green",
+      "total": 156,
+      "change_pct": -91.8,
+      "week": 8,
+      "year": 2026
+    },
+    {
+      "code": 10,
+      "name": "Los Lagos",
+      "color": "green",
+      "total": 308,
+      "change_pct": -87.7,
+      "week": 8,
+      "year": 2026
+    },
+    {
+      "code": 11,
+      "name": "Aysén",
+      "color": "green",
+      "total": 47,
+      "change_pct": -79.1,
+      "week": 8,
+      "year": 2026
+    },
+    {
+      "code": 12,
+      "name": "Magallanes",
+      "color": "green",
+      "total": 29,
+      "change_pct": -93.6,
+      "week": 8,
+      "year": 2026
+    },
+    {
+      "code": 13,
+      "name": "Metropolitana",
+      "color": "green",
+      "total": 2089,
+      "change_pct": -87.6,
+      "week": 8,
+      "year": 2026
+    },
+    {
+      "code": 14,
+      "name": "Los Ríos",
+      "color": "green",
+      "total": 178,
+      "change_pct": -87.0,
+      "week": 8,
+      "year": 2026
+    },
+    {
+      "code": 15,
+      "name": "Arica y Parinacota",
+      "color": "green",
+      "total": 74,
+      "change_pct": -82.7,
+      "week": 8,
+      "year": 2026
+    },
+    {
+      "code": 16,
+      "name": "Ñuble",
+      "color": "green",
+      "total": 165,
+      "change_pct": -83.4,
+      "week": 8,
+      "year": 2026
+    }
+  ]
+}

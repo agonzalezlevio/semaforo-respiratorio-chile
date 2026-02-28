@@ -1,0 +1,131 @@
+{
+  "year": 2026,
+  "week": 8,
+  "date_range": "16-22 feb",
+  "prev_date_range": "9-15 feb",
+  "color": "green",
+  "total": 6421,
+  "baseline_median": 43845.0,
+  "change_pct": -85.4,
+  "z_score": -9.13,
+  "oe_ratio": 0.15,
+  "oe_pct": 15.0,
+  "band_lo": 38584,
+  "band_hi": 49106,
+  "delta_prev_week": -84.6,
+  "delta_oe": -0.79,
+  "delta_change_pct_pp": -79.0,
+  "by_cause": [
+    {
+      "name": "Influenza",
+      "total": 74,
+      "baseline": 373.0,
+      "change_pct": -80.2,
+      "z_score": -6.05,
+      "oe": 0.2,
+      "color": "green"
+    },
+    {
+      "name": "COVID-19",
+      "total": 10,
+      "baseline": 13751.0,
+      "change_pct": -99.9,
+      "z_score": -0.86,
+      "oe": 0.0,
+      "color": "green"
+    },
+    {
+      "name": "Neumonía",
+      "total": 323,
+      "baseline": 1528.0,
+      "change_pct": -78.9,
+      "z_score": -13.32,
+      "oe": 0.21,
+      "color": "green"
+    },
+    {
+      "name": "IRA Alta",
+      "total": 4507,
+      "baseline": 29955.0,
+      "change_pct": -85.0,
+      "z_score": -8.19,
+      "oe": 0.15,
+      "color": "green"
+    },
+    {
+      "name": "Bronquitis",
+      "total": 763,
+      "baseline": 4248.0,
+      "change_pct": -82.0,
+      "z_score": -3.19,
+      "oe": 0.18,
+      "color": "green"
+    },
+    {
+      "name": "Obstructiva",
+      "total": 296,
+      "baseline": 2275.0,
+      "change_pct": -87.0,
+      "z_score": -5.04,
+      "oe": 0.13,
+      "color": "green"
+    },
+    {
+      "name": "Otra resp.",
+      "total": 458,
+      "baseline": 4967.0,
+      "change_pct": -90.8,
+      "z_score": -11.81,
+      "oe": 0.09,
+      "color": "green"
+    }
+  ],
+  "by_age": [
+    {
+      "group": "<1 año",
+      "total": 201,
+      "baseline": 3161.0,
+      "change_pct": -93.6,
+      "color": "green"
+    },
+    {
+      "group": "1-4 años",
+      "total": 602,
+      "baseline": 6634.0,
+      "change_pct": -90.9,
+      "color": "green"
+    },
+    {
+      "group": "5-14 años",
+      "total": 939,
+      "baseline": 6845.0,
+      "change_pct": -86.3,
+      "color": "green"
+    },
+    {
+      "group": "15-64 años",
+      "total": 3782,
+      "baseline": 22208.0,
+      "change_pct": -83.0,
+      "color": "green"
+    },
+    {
+      "group": "65+ años",
+      "total": 897,
+      "baseline": 4538.0,
+      "change_pct": -80.2,
+      "color": "green"
+    }
+  ],
+  "mix_shift_active": false,
+  "mix_shift_causes": [],
+  "forecast_next": {
+    "horizon": 1,
+    "year": 2026,
+    "week": 9,
+    "color": "green",
+    "proj": 28052,
+    "p_orange": 0.025,
+    "p_red": 0.025
+  }
+}
